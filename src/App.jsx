@@ -5,6 +5,7 @@ import { Child } from './Child';
 import { RenderPropsComponent } from './RenderPropsComponent';
 import { Effect } from './Effect';
 import { Hook } from './Hook';
+import { Form } from './Form';
 
 function App() {
 
@@ -28,6 +29,8 @@ function App() {
       <Effect />
 
       <Hook />
+
+      <Form />
     </>
   )
 }
