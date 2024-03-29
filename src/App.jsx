@@ -6,6 +6,7 @@ import { RenderPropsComponent } from './RenderPropsComponent';
 import { Effect } from './Effect';
 import { Hook } from './Hook';
 import { Form } from './Form';
+import { Ref } from './Ref';
 
 function App() {
 
@@ -14,7 +15,7 @@ function App() {
 
 
   return (
-    <>
+    <div style={{ display: 'flex', 'flex-direction': 'column', 'gap': '1rem'}}>
       <ButtonWithLogging style={{
           'background': 'purple',
           'padding': '0.5rem'
@@ -31,7 +32,9 @@ function App() {
       <Hook />
 
       <Form />
-    </>
+
+      <Ref />
+    </div>
   )
 }
 
